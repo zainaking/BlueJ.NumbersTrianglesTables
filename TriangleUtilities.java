@@ -1,21 +1,36 @@
  
 
 public class TriangleUtilities {
+   
 
     public static String getRow(int numberOfStars) {
-        return null;
+    StringBuilder builder = new StringBuilder();
+       
+    for(int i = 0; i < numberOfStars; i++) {
+            builder.append("*");
+            
+        }
+        return builder.toString();
     }
     
     public static String getTriangle(int numberOfRows) {
-        return null;
-    }
+        String str = "";
+        for (int i =1; i<= numberOfRows; i++) {
+            str+= getRow(i) + "\n";
+            
+        
+        }
 
 
-    public static String getSmallTriangle() {
-        return null;
+        return str;
+   
+} 
+
+public static String getSmallTriangle() {
+        return getTriangle(4);
     }
 
     public static String getLargeTriangle() {
-        return null;
+        return getTriangle(9);
     }
 }

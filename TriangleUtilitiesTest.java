@@ -95,8 +95,7 @@ public class TriangleUtilitiesTest {
 
     @Test
     public void testGetSmallTriangle() {
-        String expected =
-                        "*\n" +
+        String expected ="*\n" +
                         "**\n" +
                         "***\n" +
                         "****\n";

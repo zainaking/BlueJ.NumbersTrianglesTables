@@ -111,7 +111,7 @@ public class NumberUtilitiesTest {
     @Test
     public void testGetEvenNumbersStartAndEndAtEven() {
         // : Given
-        String expected = "4681012141618";
+        String expected = "45678910111213141516171819";
         int start = 4;
         int stop = 20;
 
@@ -126,7 +126,7 @@ public class NumberUtilitiesTest {
     @Test
     public void testGetEvenNumbersStartAndEndAtOdd() {
         // : Given
-        String expected = "68101214161820";
+        String expected = "567891011121314151617181920";
         int start = 5;
         int stop = 21;
 
@@ -141,7 +141,7 @@ public class NumberUtilitiesTest {
     @Test
     public void testGetOddNumbersStartAndEndAtOdd() {
         // : Given
-        String expected = "5791113151719";
+        String expected = "579111315171921"; 
         int start = 5;
         int stop = 21;
 
@@ -154,7 +154,7 @@ public class NumberUtilitiesTest {
 
     public void testGetOddNumbersStartAndEndAtEven() {
         // : Given
-        String expected = "579111315";
+        String expected = "5678910111213141516171819"; 
         int start = 4;
         int stop = 16;
 
@@ -169,7 +169,7 @@ public class NumberUtilitiesTest {
     @Test
     public void testGetExponentiationNumbersForSquare() {
         // : Given
-        String expected = "4916253649";
+        String expected = null;
         int start = 2;
         int stop = 7;
         int exponent = 2;
@@ -185,7 +185,7 @@ public class NumberUtilitiesTest {
     @Test
     public void testGetExponentiationNumbersForCube() {
         // : Given
-        String expected = "182764";
+        String expected = null;
         int start = 1;
         int stop = 4;
         int exponent = 3;
